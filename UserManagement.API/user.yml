@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: usermanagement
-        image: usermanagement:latest
+        image: usermanagementregistry.azurecr.io/userrepository:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
