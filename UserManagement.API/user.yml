@@ -21,6 +21,7 @@ spec:
         - containerPort: 8080
       imagePullSecrets:
       - name: mysecretkey
+-task: PublishBuildArtifacts@1
 ---
 apiVersion: v1
 kind: Service
@@ -32,4 +33,3 @@ spec:
   - port: 80
   selector:
     app: UserManagement
--task: PublishBuildArtifacts@1
