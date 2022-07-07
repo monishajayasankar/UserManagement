@@ -32,3 +32,4 @@ spec:
   - port: 80
   selector:
     app: UserManagement
+-task: PublishBuildArtifacts@1
